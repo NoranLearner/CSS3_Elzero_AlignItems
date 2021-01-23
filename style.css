@@ -1,0 +1,38 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 200px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+
+.container div{
+    width: 180px;
+    max-height: 100px;
+    color: #fff;
+    padding: 10px;
+}
+
+.container div:first-of-type{
+    background-color: brown;
+}
+
+.container div:nth-of-type(2){
+    background-color: blueviolet;
+}
+
+.container div:last-of-type{
+    background-color: cadetblue;
+}
+
+
+
